@@ -4,19 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
     <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="img/249-2495981_pokéapi-pokemon-go-icon-png.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <h1>Pokemon Database</h1>
+    <form class="poke-search">
+      <input type="text" name="poke-input" id="poke-input" />
+      <button class="btn-search">
+        <!-- <img src="./img/unnamed.webp" width="17px " alt="" /> -->
+      </button>
+    </form>
+
+    <div class="poke-container"></div>
+    <script src="app.js" defer></script>
     <script
       src="https://kit.fontawesome.com/593643f9ee.js"
       crossorigin="anonymous"
     ></script>
-  </head>
-  <body>
-    <h1>POKEDEX</h1>
-    <form class="poke-search">
-      <input type="text" name="poke-input" id="poke-input" />
-      <button class="btn-search"><i class="fas fa-search"></button>
-    </form>
-    <div class="poke-container"></div>
   </body>
 </html>
