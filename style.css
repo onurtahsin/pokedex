@@ -10,11 +10,12 @@ h1 {
   font-size: 7px;
   line-height: 40px;
   letter-spacing: 7px;
+
   /* margin: 20px; */
 }
 
 body {
-  background-image: linear-gradient(90deg, #4743d0, #880868);
+  background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
   width: 100vw;
   min-height: 100vh;
   display: flex;
