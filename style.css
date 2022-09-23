@@ -16,12 +16,15 @@ h1 {
 
 body {
   background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
   text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 form {
